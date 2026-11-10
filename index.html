@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erik Campos Francisco · Treinamento em informática</title>
+  <meta name="description" content="Treinamento em informática, online. Microempreendedor individual em São Paulo, SP. CNPJ 70.059.425/0001-51.">
+  <style>
+    :root {
+      --bg: #f7f6f2;
+      --surface: #ffffff;
+      --text: #1d1d1b;
+      --muted: #5c5b57;
+      --line: #e3e1da;
+      --accent: #1f5f8b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141413;
+        --surface: #1d1d1b;
+        --text: #f1efe8;
+        --muted: #b3b1aa;
+        --line: #33322f;
+        --accent: #7fb6dc;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 16px 40px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 5vw, 2.4rem);
+      line-height: 1.2;
+      margin: 0 0 16px;
+    }
+    .lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 32px; }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    h2 { font-size: 1.1rem; margin: 0 0 12px; }
+    p { margin: 0 0 8px; }
+    ul { margin: 0; padding-left: 20px; }
+    dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; }
+    dt { color: var(--muted); }
+    dd { margin: 0; overflow-wrap: anywhere; }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: 0.85rem; text-align: center; padding: 16px 0 0; }
+    @media (max-width: 480px) {
+      dl { grid-template-columns: 1fr; gap: 2px; }
+      dd { margin-bottom: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Treinamento em informática</p>
+    <h1>Erik Campos Francisco</h1>
+    <p class="lead">Aulas e treinamentos de informática, oferecidos online.</p>
+
+    <section aria-labelledby="sobre">
+      <h2 id="sobre">O que fazemos</h2>
+      <p>Treinamento em informática para quem quer usar melhor o computador e as ferramentas digitais no dia a dia, com atendimento pela internet.</p>
+    </section>
+
+    <section aria-labelledby="empresa">
+      <h2 id="empresa">Dados da empresa</h2>
+      <dl>
+        <dt>Nome empresarial</dt>
+        <dd>70.059.425 ERIK CAMPOS FRANCISCO</dd>
+        <dt>CNPJ</dt>
+        <dd>70.059.425/0001-51</dd>
+        <dt>Atividade</dt>
+        <dd>Treinamento em informática (CNAE 8599-6/03)</dd>
+        <dt>Natureza</dt>
+        <dd>Microempreendedor individual (MEI)</dd>
+        <dt>Local</dt>
+        <dd>São Paulo, SP · atendimento online</dd>
+      </dl>
+    </section>
+
+    <section aria-labelledby="contato">
+      <h2 id="contato">Contato</h2>
+      <p>E-mail: <a href="mailto:erik.francisco91@gmail.com">erik.francisco91@gmail.com</a></p>
+    </section>
+
+    <footer>© 2026 Erik Campos Francisco · CNPJ 70.059.425/0001-51</footer>
+  </main>
+</body>
+</html>
